@@ -1,0 +1,17 @@
+{
+  "name": "Finansovr",
+  "short_name": "Finansovr",
+  "description": "Controle financeiro pessoal: quanto posso gastar hoje, semana, lançamentos e rendas.",
+  "lang": "pt-BR",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0E141B",
+  "theme_color": "#0E141B",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
