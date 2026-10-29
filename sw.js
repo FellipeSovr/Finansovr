@@ -1,7 +1,7 @@
 // Service worker mínimo: guarda só a "casca" do app (esta página e os ícones).
 // Os dados continuam vindo sempre da planilha, ao vivo.
-const CACHE = 'finansovr-v3';
-const SHELL = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png', './maskable-512.png'];
+const CACHE = 'finansovr-v641';
+const SHELL = ['./', './index.html', './manifest.webmanifest?v=641', './icon-192.png?v=641', './icon-512.png?v=641', './maskable-192.png?v=641', './maskable-512.png?v=641'];
 
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(SHELL)).then(() => self.skipWaiting()));
